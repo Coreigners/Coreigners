@@ -5,6 +5,10 @@ on:
     paths:
       - 'moneyai-build/MoneyAI/**'
       - '.github/workflows/build-moneyai-apk.yml'
+  pull_request:
+    paths:
+      - 'moneyai-build/MoneyAI/**'
+      - '.github/workflows/build-moneyai-apk.yml'
   workflow_dispatch:
 
 jobs:
