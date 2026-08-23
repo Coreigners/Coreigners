@@ -242,7 +242,7 @@ public final class MainActivity extends Activity {
             i.putExtra(Settings.EXTRA_APP_PACKAGE, packageName);
             startActivity(i);
         } catch (Exception ignored) {
-            startActivity(new Intent(Settings.ACTION_NOTIFICATION_SETTINGS));
+            startActivity(new Intent(Settings.ACTION_SETTINGS));
         }
     }
 
